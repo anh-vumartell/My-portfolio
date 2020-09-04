@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="index">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="personal website, porfolio">
+        <meta name="descreption" content="example of AMKoodari's student course project">
+        <meta name="author" content="Ngoc Anh Vu-Martell">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <title>Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+        <link rel="stylesheet" href="CSS files/generalStyle.css">
+        <link rel="stylesheet" href="CSS files/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <!------HEADER------->
+        <header>
+            <div class="container-nav">
+                <img class="logo" src="Images/MYLOGO.png" width="180" height="60" alt="mylogo"> 
+               
+                <nav>
+                    <ul class="fa ul">
+                        <li class="nav"><a href="home.html"><span>Home</span></a></li>                
+                        <li class="nav"><a href="skills.html"><span>Skills</span></a></li>
+                        <li class="nav"><a href="projects.html"><span>Projects</span></a></li>
+                        <li class="nav"><a href="gallery.html"><span>Gallery</span></a></li>
+                        <li class="nav"><a href="contactMe.html"><span>Contact me</span></a></li>
+                        <li class="nav"><a href="testimonials.html"><span>Testimonials</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       
+        <section id="about" class="about">
+            <!-----INTRO SECTION------->
+            <div id="page-wrap" class="page-wrap">
+                <h1>About</h1>
+                <h2>Who Is Anh Vu-Martell?</h2>
+                
+                <div class="container-about">
+                    <div class="container-img-profile">
+                        <img src="Images/profileImg/Anh_headshot5.png" width="300px" height="300px" alt="Anh's headshot">
+                    </div>
+                    <div class="container-about-text">
+                        <h2 class="sentence">Hello World! I'm a stay-at-home mom who is learning how to code.</br>
+                        I'm <b>a chef</b> turned <b>Front-end Developer</b><br/> and <b>a</b>
+                        <!--Personalities-->
+                        <div class="fadeIn">
+                            <span>Doer.</span>
+                            <span>Life-long learner.</span>
+                            <span>Self-motivated woman.</span>
+                            <span>Multi-language speaker.</span>
+                            <span>Planner.</span>
+                                       
+                        </div>
+                        
+                        </h2>
+                        <p class="text1"><a href="contactMe.html">Get In Touch</a></p>
+                    </div>
+                    
+                
+                </div>
+            
+            </div>        
+        
+            
+
+
+
+        
+        </section>
+        <!--FOOTER-->
+        <footer>
+            <div class="authorship">
+                <p class="title">&#169 2020 | Designed & coded by Anh Vu-Martell </p>
+                <div id="date"></div>
+            </div>
+        
+
+        </footer>
+        <!-----JAVASCRIPT----->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            var date = new Date();
+            document.getElementById("date").innerHTML = date;  
+        </script>
+        
+    </body>
+</html>
