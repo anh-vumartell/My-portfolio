@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="personal website, porfolio">
+        <meta name="descreption" content="example of AMKoodari's student course project">
+        <meta name="author" content="Ngoc Anh Vu-Martell">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contacts</title>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
+        <link rel="stylesheet" href="CSS files/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSS files/generalStyle.css">
+        <link rel="stylesheet" href="CSS files/formStyle.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="container-nav">
+                <img class="logo" src="Images/MYLOGO.png" width="180" height="60" alt="mylogo"> 
+
+                <nav>
+                    <ul class="fa ul">
+                        <li class="nav"><a href="home.html"><span>Home</span></a></li>                
+                        <li class="nav"><a href="skills.html"><span>Skills</span></a></li>
+                        <li class="nav"><a href="projects.html"><span>Projects</span></a></li>
+                        <li class="nav"><a href="gallery.html"><span>Gallery</span></a></li>
+                        <li class="nav"><a href="contactMe.html"><span>Contact me</span></a></li>
+                        <li class="nav"><a href="testimonials.html"><span>Testimonials</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--CONTACT SECTION-->
+        <section id="contact" class="contact">
+        <div class="container">
+            <div class="container-form">
+            <h1>Contact me</h1>
+            <form name="myForm" id="myForm" action="#" onsubmit="return check();">
+                <div class="input-field">
+                    <input type="text" name="name" id="fname" required placeholder="First name"/>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" name="name" id="lname" required placeholder="Last name"/>
+                </div>
+        
+                <div class="input-field">
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value=""></option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+
+                <div class="input-field">                
+                    <input type="text" name="age" id="age" required placeholder="Your age"/>
+                </div>
+
+                <div class="input-field">                
+                    <input type="text" name="email" id="email" required placeholder="Email address"/>
+                </div>
+
+                <div class="input-field">                
+                    <input type="text" name="website" id="website" required placeholder="Website address"/>
+                </div>
+
+                <div class="input-field">
+                    <textarea name="comment" id="comment" cols="58" rows="5" maxlength="255" required placeholder="Comments:"></textarea>
+                </div>
+
+                <div class="btn">
+                    <input type="submit" id= "submitBtn" value="Submit"/>
+                    <input type="reset">
+                 </div>
+            </form>
+            <div id="container-validation"></div>
+            </div>
+            
+        </div>
+        <!--Container-Social-->
+        <div class="container-social">
+            <p class="text2">Let's connect on social networks!</p>
+            <!--Container-Social-Icons-->
+            <div class="container-social-icon">
+                <ul>
+                    <!--TWITTER-->
+                    <li>                        
+                    <a href="https://twitter.com/VuMartell" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    </li>  
+                    <!--FACEBOOK-->
+                    <li>
+                    <a href="https://www.facebook.com/anh.vungoc2210" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    </li>
+                    <!--LinkedIn-->
+                    <li>
+                    <a href="https://www.linkedin.com/in/anh-vu-martell-b539b110a/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </li>
+                    <!--Github-->
+                    <li>
+                    <a href="https://github.com/anh-vumartell" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                    </li>
+                    <!--Instagram-->
+                    <li>
+                    <a href="https://www.instagram.com/anh.vumartell/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>                       
+                          
+                                              
+                </ul>
+
+            </div>                
+        </div>          
+        </section>
+        <script type="text/javascript" src="JS/formValidation1.2.js" async defer></script>
+        <footer>
+            <div class="authorship-contact">
+                <p class="title">&#169 2020 | Designed & coded by Anh Vu-Martell </p>
+            </div>     
+        </footer>
+    </body>
+</html>
